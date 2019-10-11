@@ -12,18 +12,18 @@ div {
   text-align: center;
 }
 
-.btn-primary {
+.btn {
   text-decoration: none;
-  color: #fff;
-  background-color: #333;
-  border-radius: 8px;
-  font-size: 1.125rem;
-  padding: .4em .75em .3em;
+}
+
+.btn-small a {
+  text-decoration: none;
   display: inline-block;
 }
 
-.btn-primary:hover {
-  background-color: #000;
+
+.btn-big {
+  text-decoration: none;
 }
 
 .btn-subtle {
@@ -70,6 +70,15 @@ div {
 .btn-warning:hover {
   background-color: #933;
 }
+
+
+
+
+
+
+
+
+
 
 .btn-primary-small {
   text-decoration: none;
