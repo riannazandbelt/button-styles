@@ -13,18 +13,62 @@ div {
 }
 
 .btn {
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  text-align: center;
+}
+
+.btn .one {
   text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  font-size: .875rem;
+  padding: .4em .75em .3em;
+}
+
+.btn .one:hover {
+  background-color: #000;
+}
+
+.btn .two {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background-color: #ccc;
+  border-radius: 8px;
+  font-size: .875rem;
+  padding: .4em .75em .3em;
+}
+
+.btn .two:hover {
+  background-color: #333;
+}
+
+
+
+.btn-small {
+  font-size: .875rem;
+  padding: .4em .75em .3em;
 }
 
 .btn-small a {
   text-decoration: none;
-  display: inline-block;
+  display: block;
 }
-
 
 .btn-big {
   text-decoration: none;
+  font-size: 1.5rem;
+  padding: .4em .75em .3em;
 }
+
+.btn-big a {
+  display: inline-block;
+  background-color: #333;
+}
+
 
 .btn-subtle {
   text-decoration: none;
@@ -70,6 +114,8 @@ div {
 .btn-warning:hover {
   background-color: #933;
 }
+
+
 
 
 
