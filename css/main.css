@@ -47,10 +47,12 @@ div {
 
 .btn-small {
   font-size: .875rem;
+  padding-top: 0;
 }
 
 .btn-big {
   font-size: 1.5rem;
+  padding-top: 0;
 }
 
 .btn-subtle {
@@ -59,7 +61,7 @@ div {
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1rem;
-  margin-top: 1.3rem;
+  margin-top: 1rem;
 }
 
 .btn-subtle:hover {
@@ -74,7 +76,7 @@ div {
   border-color: #000;
   margin-left: 3rem;
   margin-right: 3rem;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .btn-ghost:hover {
@@ -86,7 +88,7 @@ div {
   background-color: #f33;
   margin-left: 3rem;
   margin-right: 3rem;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .btn-warning:hover {
