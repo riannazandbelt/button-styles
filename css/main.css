@@ -12,19 +12,20 @@ div {
   text-align: center;
 }
 
-.button {
+.btn {
   padding: .4em .75em .3em;
   text-align: center;
+  display: inline-block;
 }
 
-.button a {
+.btn a {
   text-decoration: none;
   padding: .4em .75em .3em;
   display: inline-block;
   border-radius: 8px;
 }
 
-.btn {
+.btn-medium {
   font-size: 1.125rem;
   display: inline-block;
 }
@@ -33,7 +34,7 @@ div {
   display: inline-block;
 }
 
-.one {
+.btn-one {
   text-decoration: none;
   color: #fff;
   background-color: #333;
